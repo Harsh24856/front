@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "front",
+    "slug": "front",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "edgeToEdgeEnabled": true,
+
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-maps"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "NSLocationWhenInUseUsageDescription": "We use your location to show nearby places and routes.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.harshsehra.front"
+    },
+    "android": {
+      "usesCleartextTraffic": true,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.harshsehra.front"
+    },
+    "web": {
+      "favicon": ""
+    },
+    "extra": {
+      "openaiKey": "",
+      "apiBase": "http://192.168.31.203:3000",
+      "eas": {
+        "projectId": "ee885a03-79b5-49ac-a6c5-8ec4ae813822"
+      }
+    },
+    "owner": "harshsehra"
+  }
+}
